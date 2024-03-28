@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form>
+                <div class="form-group">
+                    <label class="form-label">Name</label>
+                    <input type="text" id="txtname" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="text" id="txtEmail" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <input type="text" id="txtPassword" class="form-control" />
+                </div>
+                <button type="submit" id="btnRegister" class="btn btn-primary mt-2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#btnRegister').click(function (e) {
+            debugger;
+            e.preventDefault(); // prevent the form from submitting normally
+            var uname = $('#txtname').val();
+            var email = $('#txtEmail').val();
+            var pass = $('#txtPassword').val();
+            var formdata = {
+                Username: uname,
+                Email: email,
+                Password: pass
+            };
+
+            $.ajax({
+                url: "https://localhost:44335/api/Authenticate/Register",
+                type: 'POST',
+                data: JSON.stringify(formdata),
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                   // alert("success");
+                    toastr.success(response, 'Success Alert');
+                    window.location.href = "Login/Auth";
+                },
+                error: function (jqxhr) {
+                    toastr.error(jqxhr.responseText, 'Information Alert');
+                }
+            });
+        });
+    });
+</script>

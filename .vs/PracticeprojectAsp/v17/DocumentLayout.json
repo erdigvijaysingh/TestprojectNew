@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\consumeapirolebased\\views\\auth\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|solutionrelative:consumeapirolebased\\views\\auth\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\consumeapirolebased\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|solutionrelative:consumeapirolebased\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\consumeapirolebased\\views\\auth\\addemploye.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|solutionrelative:consumeapirolebased\\views\\auth\\addemploye.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EC3CED-9259-4F1E-AF1A-EB81C4D92F45}|Apiconsume\\Apiconsume.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\apiconsume\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EC3CED-9259-4F1E-AF1A-EB81C4D92F45}|Apiconsume\\Apiconsume.csproj|solutionrelative:apiconsume\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\consumeapirolebased\\views\\auth\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|solutionrelative:consumeapirolebased\\views\\auth\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\consumeapirolebased\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|solutionrelative:consumeapirolebased\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\consumeapirolebased\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|solutionrelative:consumeapirolebased\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EC3CED-9259-4F1E-AF1A-EB81C4D92F45}|Apiconsume\\Apiconsume.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\apiconsume\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EC3CED-9259-4F1E-AF1A-EB81C4D92F45}|Apiconsume\\Apiconsume.csproj|solutionrelative:apiconsume\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\consumeapirolebased\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|solutionrelative:consumeapirolebased\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|c:\\users\\uid\\source\\repos\\practiceprojectasp\\consumeapirolebased\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51716754-9AE5-45BD-BFE1-6F1D621E4994}|consumeApiRoleBased\\consumeApiRoleBased.csproj|solutionrelative:consumeapirolebased\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\Edit.cshtml",
+              "RelativeDocumentMoniker": "consumeApiRoleBased\\Views\\Auth\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\Edit.cshtml",
+              "RelativeToolTip": "consumeApiRoleBased\\Views\\Auth\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T10:38:17.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "consumeApiRoleBased\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "consumeApiRoleBased\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T06:23:48.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "addemploye.cshtml",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\addemploye.cshtml",
+              "RelativeDocumentMoniker": "consumeApiRoleBased\\Views\\Auth\\addemploye.cshtml",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\addemploye.cshtml",
+              "RelativeToolTip": "consumeApiRoleBased\\Views\\Auth\\addemploye.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T05:54:21.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "consumeApiRoleBased\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "consumeApiRoleBased\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAALgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:59:18.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\Apiconsume\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Apiconsume\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\Apiconsume\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Apiconsume\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T09:32:27.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "consumeApiRoleBased\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Models\\Employee.cs",
+              "RelativeToolTip": "consumeApiRoleBased\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T11:11:02.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "employee.cshtml",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\employee.cshtml",
+              "RelativeDocumentMoniker": "consumeApiRoleBased\\Views\\Auth\\employee.cshtml",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\employee.cshtml",
+              "RelativeToolTip": "consumeApiRoleBased\\Views\\Auth\\employee.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T12:11:00.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\Apiconsume\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "Apiconsume\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\Apiconsume\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "Apiconsume\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwFsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T07:17:46.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "consumeApiRoleBased\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "consumeApiRoleBased\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T09:33:55.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "consumeApiRoleBased\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\UID\\source\\repos\\PracticeprojectAsp\\consumeApiRoleBased\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "consumeApiRoleBased\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAqwDYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T05:43:55.421Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

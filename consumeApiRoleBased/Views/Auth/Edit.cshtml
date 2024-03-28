@@ -1,0 +1,38 @@
+﻿@model consumeApiRoleBased.Models.Employee
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h4>Edit Employee Form</h4>
+<form method="post">
+    <div class="container">
+        <div class="row">
+
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Employee Name" aria-label="emp_Name" id="txtname">
+            </div>
+            <div class="col ">
+                <input type="number" class="form-control" placeholder="Employee Age" aria-label="Employee Age" id="txtage">
+            </div>
+            <div class="col ">
+                <input type="number" class="form-control" placeholder="Employee Salary" aria-label="Employee Salary" id="txtsal">
+            </div>
+            <div class="col">
+                <select class="form-select" aria-label="Default select example" id="txtdesg">
+                    <option selected>--Select Designation</option>
+                    <option value="Programmer">Programmer</option>
+                    <option value="Developer">Developer</option>
+                    <option value="Manager">Manager</option>
+                </select>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-4">
+                    <!-- Added div for the button -->
+                    <button type="submit" class="btn btn-primary " id="btnsubmit">Submit</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</form>

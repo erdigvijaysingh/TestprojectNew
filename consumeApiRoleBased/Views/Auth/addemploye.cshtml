@@ -1,0 +1,80 @@
+﻿@model consumeApiRoleBased.Models.Employee
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h4>Add Employee Form</h4>
+<form method="post">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Employee Name" aria-label="emp_Name" id="txtname">
+            </div>
+                <div class="col ">
+                <input type="number" class="form-control" placeholder="Employee Age" aria-label="Employee Age" id="txtage">
+            </div>
+                <div class="col ">
+                <input type="number" class="form-control" placeholder="Employee Salary" aria-label="Employee Salary" id="txtsal">
+            </div>
+            <div class="col">
+                <select class="form-select" aria-label="Default select example" id="txtdesg">
+                    <option selected>--Select Designation</option>
+                    <option value="Programmer">Programmer</option>
+                    <option value="Developer">Developer</option>
+                    <option value="Manager">Manager</option>
+                </select>
+            </div>
+            <div class="row mt-2">
+            <div class="col-md-4">
+                <!-- Added div for the button -->
+                <button type="submit" class="btn btn-primary " id="btnsubmit">Submit</button>
+            </div>
+            </div>
+
+           
+        </div>
+    </div>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function (e) {
+       
+        var accessToken = localStorage.getItem('token');
+        $("#btnsubmit").click(function (e) {
+            debugger;
+            e.preventDefault();
+            var empnam = $("#txtname").val();
+            var emage = $("#txtage").val();
+            var empsal = $("#txtsal").val();
+            var emDeg = $("#txtdesg").val();
+            var formdata = {
+                emp_Name: empnam,
+                emp_Age: emage,
+                emp_Salary: empsal,
+                Designation: emDeg
+            };
+            $.ajax({
+                url: "/Auth/EmployeeAdd",
+                type: 'POST',
+                data: formdata,
+                headers: {
+                    'Authorization': 'Bearer ' + accessToken // Include access token in Authorization header
+                },
+                success: function (response) {
+                    toastr.success(response, 'Employee Add Successfully');
+                    window.location.href = "/Auth/employee";
+                },
+                error: function (jqxhr) {
+                    toastr.error(jqxhr.responseText, 'Information Alert');
+                }
+            
+            });
+        });
+    
+    
+    
+    });
+
+</script>

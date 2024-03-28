@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "Apiconsume\\Apiconsume.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "consumeApiRoleBased\\consumeApiRoleBased.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+﻿@model consumeApiRoleBased.Models.Login
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>Login Form</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form>
+                
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="text" id="txtEmail" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <input type="text" id="txtPassword" class="form-control" />
+                </div>
+                <button type="submit" id="btnRegister" class="btn btn-primary mt-2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#btnRegister').click(function (e) {
+            debugger;
+            e.preventDefault();
+           
+            var email = $('#txtEmail').val();
+            var pass = $('#txtPassword').val();
+            var formdata = {
+                Email: email,
+                Password: pass
+            };
+
+            $.ajax({
+                url: "Auth/Login",
+                type: 'POST',
+                data: formdata,
+                success: function (response) {
+                    debugger;
+                    response = JSON.parse(response); // Parse the response if it's not already parsed
+                    // Now you can access the token property
+                    var token = response.token;
+                    // Store the token in local storage
+                    localStorage.setItem('token', token);
+                    
+                     toastr.success(response, 'Login Successful');
+                     window.location.href = "/Auth/employee";
+                },
+                error: function (jqxhr) {
+                    toastr.error(jqxhr.responseText, 'Information Alert');
+                }
+            });
+        });
+    });
+</script>
+

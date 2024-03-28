@@ -1,0 +1,87 @@
+﻿@model IEnumerable<consumeApiRoleBased.Models.Employee>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form method="post" asp-action="addemploye" asp-controller="Auth">
+    <button type="submit" class="btn btn-primary">AddEmployee</button>
+
+</form>
+<br />
+<style>
+    #tbltext th {
+        text-align: center;
+    }
+
+    #txttbody td {
+        text-align: center;
+    }
+</style>
+<table class="table table-striped " id="tbltext">
+    <thead>
+        <tr>
+            <th scope="col">emp_Id</th>
+            <th scope="col">emp_Name</th>
+            <th scope="col">emp_Age</th>
+            <th scope="col">emp_Salary</th>
+            <th scope="col">Designation</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody id="txttbody">
+    </tbody>
+</table>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        debugger;
+        // Retrieve access token from localStorage or wherever it is stored
+        var accessToken = localStorage.getItem('token');
+
+        // Function to fetch data and populate the table
+        $.ajax({
+            url: '/Auth/getemployee', // Replace this with your actual API endpoint
+            type: 'GET',
+            dataType: 'json',
+            headers: {
+                'Authorization': 'Bearer ' + accessToken // Include access token in Authorization header
+            },
+            success: function (data) {
+                debugger;
+                // Clear existing table rows
+                $('#txttbody').empty();
+                // Populate table with fetched data
+                $.each(data, function (index, item) {
+                    var row = '<tr>' +
+                        '<td>' + item.emp_Id + '</td>' +
+                        '<td>' + item.emp_Name + '</td>' +
+                        '<td>' + item.emp_Age + '</td>' +
+                        '<td>' + item.emp_Salary + '</td>' +
+                        '<td>' + item.designation + '</td>' +
+                        '<td><button class="btn btn-primary" onclick="editEmployee(' + item.emp_Id + ')">Edit</button>||<button class="btn btn-danger" onclick="deleteEmployee(' + item.emp_Id + ')">Delete</button>||<button class="btn btn-warning" onclick="showDetails(' + item.emp_Id + ')">Details</button></td>' +
+                        '</tr>';
+
+                    $('#txttbody').append(row);
+                });
+                $('#tbltext').DataTable();
+            },
+            error: function (error) {
+                console.log(error);
+                // Handle error if any
+            }
+        });
+    });
+    function editEmployee(empId) {
+        debugger;
+        window.location.href = "/Auth/Edit?empId=" + empId;
+    }
+
+    function deleteEmployee(empId) {
+        window.location.href = "/Auth/Login?empId=" + empId;
+    }
+    function showDetails(empId) {
+        window.location.href = "/Auth/Login?empId=" + empId;
+    }
+
+</script>
+

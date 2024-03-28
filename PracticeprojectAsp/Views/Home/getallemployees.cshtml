@@ -1,0 +1,59 @@
+﻿@model IEnumerable<PracticeprojectAsp.Models.envm>
+
+@{
+    ViewData["Title"] = "getallemployees";
+}
+
+<h1>getallemployees</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.emp_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.emp_Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.emp_Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Designation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.product)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.emp_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.emp_Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.emp_Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Designation)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.productName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.emp_Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.emp_Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.emp_Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
